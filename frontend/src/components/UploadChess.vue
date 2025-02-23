@@ -56,7 +56,7 @@ export default {
       formData.append("image", this.file);
 
       try {
-        const response = await axios.post("http://127.0.0.1:8000/upload", formData, {
+        const response = await axios.post("http://192.168.30.88:8000/upload", formData, {
           headers: { "Content-Type": "multipart/form-data" },
           responseType: "blob" // Receber imagem como resposta
         });
