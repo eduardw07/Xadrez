@@ -1,0 +1,3 @@
+para rodar na raspbery eu vou ter que fazer um ipconfig no meu cmd e pegar o ip da minha maquina mesmo, nao do wsl, e colocar no vue.config e no outro arquivo. preciso tambem rodar com esse script no backend para que ele reconheça todas as entradas: FLAK_APP=app.py flask run --host=0.0.0.0 --port=8000
+
+Qualquer coisa, entrar no ultimo chat que explica caso o redirecionamento falhe!
